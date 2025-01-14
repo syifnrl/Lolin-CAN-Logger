@@ -24,6 +24,10 @@
 #include "esp_vfs_fat.h"
 #include "sdmmc_cmd.h"
 
+#include "nvs.h"
+#include "nvs_flash.h"
+#include "esp_system.h"
+
 #define Delay(ms) vTaskDelay(pdMS_TO_TICKS(ms))
 #define LOG_LOCAL_LEVEL ESP_LOG_VERBOSE
 static const char *PC = "Main";
