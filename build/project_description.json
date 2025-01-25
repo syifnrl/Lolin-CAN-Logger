@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "lolin-can-logger",
-    "project_version":    "f97c615-dirty",
+    "project_version":    "6e28952-dirty",
     "project_path":       "D:/Syifa/ESP32-IDF/lolin-can-logger",
     "idf_path":           "C:/Espressif/frameworks/esp-idf-v5.3.2",
     "build_dir":          "D:/Syifa/ESP32-IDF/lolin-can-logger/build",
@@ -1180,7 +1180,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "D:/Syifa/ESP32-IDF/lolin-can-logger/build/esp-idf/main/libmain.a",
-            "sources": [ "D:/Syifa/ESP32-IDF/lolin-can-logger/main/DataLogger.c", "D:/Syifa/ESP32-IDF/lolin-can-logger/main/Miscellaneous.c", "D:/Syifa/ESP32-IDF/lolin-can-logger/main/main.c", "D:/Syifa/ESP32-IDF/lolin-can-logger/main/SD.c" ],
+            "sources": [ "D:/Syifa/ESP32-IDF/lolin-can-logger/main/DataLogger.c", "D:/Syifa/ESP32-IDF/lolin-can-logger/main/Miscellaneous.c", "D:/Syifa/ESP32-IDF/lolin-can-logger/main/main.c", "D:/Syifa/ESP32-IDF/lolin-can-logger/main/SD.c", "D:/Syifa/ESP32-IDF/lolin-can-logger/main/CAN.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {

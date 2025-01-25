@@ -13,6 +13,6 @@
         "miscellaneous.h": "c",
         "sdkconfig.h": "c"
     },
-    "idf.portWin": "COM6",
+    "idf.portWin": "COM5",
     "idf.flashType": "UART"
 }

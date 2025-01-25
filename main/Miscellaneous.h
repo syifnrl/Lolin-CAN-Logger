@@ -28,6 +28,8 @@
 #include "nvs_flash.h"
 #include "esp_system.h"
 
+#include "driver/twai.h"
+
 #define Delay(ms) vTaskDelay(pdMS_TO_TICKS(ms))
 #define LOG_LOCAL_LEVEL ESP_LOG_VERBOSE
 static const char *PC = "Main";
@@ -43,6 +45,10 @@ static const char *PC = "Main";
 // #define MISO GPIO_NUM_13
 // #define MOSI GPIO_NUM_11
 // #define CLK GPIO_NUM_12
+
+//TWAI
+#define CTX GPIO_NUM_6
+#define CRX GPIO_NUM_4
 
 #define LED GPIO_NUM_15
 
